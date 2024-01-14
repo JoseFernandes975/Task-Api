@@ -1,0 +1,55 @@
+.jf-card-container{
+ width: 100%;
+ background-color: var(--bg-color-tertiary);
+ border-radius: 8px;
+ padding: 43px 35px;
+ display: flex;
+}
+
+.jf-card-container img{
+    width: 247px;
+    height: 247px;
+    margin-right: 20px;
+}
+
+.jf-card-information-user {
+    background-color: var(--bg-color-quartiary);
+    border-radius: 6px;
+    border: 1px solid var(--bd-color-primary);
+    padding: 10px 15px;
+    width: 100%;
+}
+
+.jf-card-information-user h2{
+    color: var(--font-color-primary);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.jf-container-fields {
+    margin-top: 20px;
+    display: grid;
+    grid-gap: 5px;
+    margin-bottom: 17px;
+}
+
+.jf-field {
+    display: flex;
+    border-radius: 4px;
+    border: 1px solid var(--bd-color-primary);
+    padding: 10px;
+}
+
+.jf-name-field {
+    color: var(--font-color-secondary);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.jf-value-field {
+    font-weight: 400;
+}
+
+.jf-blue {
+    color: var(--font-color-tertiary);
+}

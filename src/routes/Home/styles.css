@@ -1,0 +1,12 @@
+main {
+    padding: 20px 40px;
+}
+
+.title-home {
+  font-size: 48px;
+}
+
+.description-home {
+    color: var(--font-color-quinary);
+    font-size: 24px;
+}

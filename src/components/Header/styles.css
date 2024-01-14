@@ -1,0 +1,17 @@
+header {
+  background-color: var(--bg-color-primary);
+  height: 62px;
+  display: flex;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+
+nav h1 {
+    color: var(--font-color-quartiary);
+    font-size: 24px;
+    font-weight: 500;
+}
